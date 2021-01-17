@@ -3,10 +3,10 @@
 
 ---ItemFarm Troubleshoot---
 
-game.Players.PlayerAdded:Connect(function(player)
+while wait(.1) do
     game.Workspace.DroppedItems.Rossi:Destroy()
 end
-)
+
 
 ---------------------------
 
