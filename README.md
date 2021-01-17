@@ -1,5 +1,21 @@
+
+--This was made by chad >:)
+
+---ItemFarm Troubleshoot---
+
+game.Players.PlayerAdded:Connect(function(player)
+    game.Workspace.DroppedItems.Rossi:Destroy()
+end
+)
+
+---------------------------
+
+
+---Farmer---
+
 getgenv().farmer = false
 
+------------
 local RRP2 = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
@@ -35,6 +51,8 @@ Title.Font = Enum.Font.Bangers
 Title.Text = "RRP2Mods by chad"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextSize = 40.000
+
+
 
 ItemFarm.Name = "ItemFarm"
 ItemFarm.Parent = Frame
