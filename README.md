@@ -71,6 +71,8 @@ ItemFarm.MouseButton1Click:Connect(function()
 		for i,v in pairs(Game:GetService('Workspace').DroppedItems:GetChildren()) do
 			if v:IsA'Tool' then
 				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Handle.CFrame
+				wait(.1)
+				game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(46.0807915, 3.99800396, -398.769867)
 			end
 		end
 	end
