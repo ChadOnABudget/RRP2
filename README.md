@@ -1,15 +1,4 @@
 
---This was made by chad >:)
-
----ItemFarm Troubleshoot---
-
-while wait(.1) do
-    game.Workspace.DroppedItems.Rossi:Destroy()
-end
-
-
----------------------------
-
 
 ---Farmer---
 
